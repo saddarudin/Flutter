@@ -47,26 +47,26 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyCz29m5lNc2IbJCphyUUAK8ZB_CDr3jZXw',
-    appId: '1:185632624856:web:1522f7a8393def350d07ad',
-    messagingSenderId: '185632624856',
+    apiKey: '',
+    appId: '',
+    messagingSenderId: '',
     projectId: 'mad-class-work',
     authDomain: 'mad-class-work.firebaseapp.com',
     storageBucket: 'mad-class-work.appspot.com',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyC-Qj-HJoei5u8mJRljlIfFGetel6fr8VE',
-    appId: '1:185632624856:android:4738a659421bb5ff0d07ad',
-    messagingSenderId: '185632624856',
+    apiKey: '',
+    appId: '',
+    messagingSenderId: '',
     projectId: 'mad-class-work',
     storageBucket: 'mad-class-work.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyCQnM_xukx3PeY9vyUb7txi6lbRIRkkRaA',
-    appId: '1:185632624856:ios:efecacfc064b78b30d07ad',
-    messagingSenderId: '185632624856',
+    apiKey: '',
+    appId: '',
+    messagingSenderId: '',
     projectId: 'mad-class-work',
     storageBucket: 'mad-class-work.appspot.com',
     iosBundleId: 'com.example.firebaseExample',
