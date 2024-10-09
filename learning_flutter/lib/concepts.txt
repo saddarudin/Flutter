@@ -1,0 +1,6 @@
+# Scaffold: 
+    It is Canvas of Flutter. Canvas means where we can draw things.
+# BuildContext: Parameter in build method
+    It tells the location of the tree like Where is Scaffold, Row, Column etc
+# routes:
+    it changes the page like there are many pages in single screen you can switch to any of them by using routes
