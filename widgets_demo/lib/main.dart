@@ -63,15 +63,15 @@ class _MyHomePageState extends State<MyHomePage> {
               onSelected: (value) {},
               itemBuilder: (context) {
                 return [
-                  PopupMenuItem(
+                  const PopupMenuItem(
                     value: 1,
                     child: Text("settings"),
                   ),
-                  PopupMenuItem(
+                  const PopupMenuItem(
                     value: 2,
                     child: Text("settings"),
                   ),
-                  PopupMenuItem(
+                  const PopupMenuItem(
                     value: 3,
                     child: Text("settings"),
                   )

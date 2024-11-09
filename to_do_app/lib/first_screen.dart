@@ -17,18 +17,16 @@ class _FirstScreenState extends State<FirstScreen> {
         firstDate: DateTime(2000),
         lastDate: DateTime(2101));
 
-    if (pickedDate != null) {
-      TimeOfDay? pickedTime = await showTimePicker(
-          context: context,
-          initialTime: TimeOfDay.fromDateTime(DateTime.now()));
-      if (pickedTime != null) {
-        setState(() {
-          _selectedDateTime = DateTime(pickedDate.year, pickedDate.month,
-              pickedDate.day, pickedTime.hour, pickedTime.minute);
-        });
-      }
+    TimeOfDay? pickedTime = await showTimePicker(
+        context: context,
+        initialTime: TimeOfDay.fromDateTime(DateTime.now()));
+    if (pickedTime != null) {
+      setState(() {
+        _selectedDateTime = DateTime(pickedDate.year, pickedDate.month,
+            pickedDate.day, pickedTime.hour, pickedTime.minute);
+      });
     }
-  }
+    }
 
   @override
   Widget build(BuildContext context) {

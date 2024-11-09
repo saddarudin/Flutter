@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "185632624856",
+    "project_id": "mad-class-work",
+    "storage_bucket": "mad-class-work.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:185632624856:android:4738a659421bb5ff0d07ad",
+        "android_client_info": {
+          "package_name": "com.example.firebase_example"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-Qj-HJoei5u8mJRljlIfFGetel6fr8VE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

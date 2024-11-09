@@ -32,6 +32,7 @@ class __SignUpState extends State<SignUp> {
                   if (value == null || value.isEmpty) {
                     return "Email cannot be empty";
                   }
+                  return null;
                 },
               ),
               ElevatedButton(

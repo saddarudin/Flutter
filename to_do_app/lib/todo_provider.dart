@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:to_do_app/add_todo.dart';
 import 'package:to_do_app/todomodel.dart';
 
 class TodoProvider with ChangeNotifier {
-  List<ToDoModel> _todos = [
+  final List<ToDoModel> _todos = [
     ToDoModel(
         title: "some", description: "some description", date: DateTime.now()),
     ToDoModel(

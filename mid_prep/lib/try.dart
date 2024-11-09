@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:mid_prep/second.dart';
 
 class Try extends StatelessWidget {
   const Try({super.key});
